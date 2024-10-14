@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/shreevishnutraders/static/css/main.c21642eb.css",
+    "main.js": "/shreevishnutraders/static/js/main.fafc4265.js",
+    "static/js/453.151daa23.chunk.js": "/shreevishnutraders/static/js/453.151daa23.chunk.js",
+    "index.html": "/shreevishnutraders/index.html",
+    "main.c21642eb.css.map": "/shreevishnutraders/static/css/main.c21642eb.css.map",
+    "main.fafc4265.js.map": "/shreevishnutraders/static/js/main.fafc4265.js.map",
+    "453.151daa23.chunk.js.map": "/shreevishnutraders/static/js/453.151daa23.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c21642eb.css",
+    "static/js/main.fafc4265.js"
+  ]
+}
