@@ -1,0 +1,102 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+
+
+
+
+  @media only screen and (max-width: 767px) {
+    /* Your mobile styles go here */
+  
+  
+    /* Add more styles as needed */
+  }
+
+  .scrollable-container::-webkit-scrollbar {
+    display: none;
+  }
+
+  @media only screen and (min-width: 768px) {
+    /* Your styles for larger screens go here */
+    .container {
+      height: 100vh;
+    }
+  
+    /* Add more styles as needed */
+  }
+
+
+
+
+  
+  .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  
+  .card-title,
+  .card-text,
+  .text-center {
+    color: #887C68;
+  }
+  .card-title{
+
+      margin: 15px;    
+  }
+
+  .card-title-container{
+        background-color: #F8F8F8;    
+  }
+
+
+  .card-text-container {
+    height: auto; 
+    overflow: hidden;
+    justify-content: center;
+  }
+  
+
+
+.card-text{
+    font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+overflow: hidden; 
+text-overflow: ellipsis;
+}
+
+.card {
+    box-shadow:  0 20px 40px rgba(47, 45, 45, 0.2);
+    border: none; 
+    overflow: hidden;
+  }
+
+
+
+  /* YourComponent.css */
+
+.carousel-container {
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    width: 100%;
+    padding: 20px; /* Adjust as needed for spacing */
+  }
+  
+  .carousel {
+    display: flex;
+  }
+  
+  .carousel-item {
+    flex: 0 0 auto;
+    width: 300px; /* Adjust as needed for image width */
+    height: auto; /* Adjust as needed for image height */
+    margin-right: 10px; /* Adjust as needed for spacing between images */
+  }
+  
